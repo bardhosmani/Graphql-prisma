@@ -10,7 +10,7 @@ import Comment from './resolvers/Comment'
 const pubsub = new PubSub();
 
 const server = new GraphQLServer({
-    typeDefs: 'src/shcema.graphql',
+    typeDefs: 'src/schema.graphql',
     resolvers: {
         Query,
         Mutation,
